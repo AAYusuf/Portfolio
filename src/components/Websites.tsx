@@ -20,7 +20,7 @@ const Websites: FC = () => {
                 href={website.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" flex flex-wrap gap-3 hover:bg-slate-900 p-3 transition duration-300 hover:scale-110"
+                className=" flex flex-wrap gap-3 hover:bg-slate-900 p-3 transition duration-300 hover:scale-105"
                 key={i}
               >
             <div data-scroll data-scroll-speed="3" className="lg:flex-1">

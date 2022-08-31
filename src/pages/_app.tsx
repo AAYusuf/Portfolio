@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link
           rel="shortcut icon"
-          href="/rounded-avatar.png"
+          href="/favicon.png"
           type="image/x-icon"
         />
 
@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:image" content="/avatar.jpg" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="NAPTheDev's Portfolio" />
+        <meta property="twitter:title" content="A.A.Yusuf's Portfolio" />
         <meta
           property="twitter:description"
           content="A.A.Yusuf's Portfolio"
