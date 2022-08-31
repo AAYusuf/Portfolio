@@ -1,14 +1,11 @@
 import { BiLinkExternal } from "react-icons/bi";
 import { FC } from "react";
 import { FaGithub } from "react-icons/fa";
-import { allDataType } from "../shared/types";
 import {projects} from '../shared/constants'
 
-interface MainProjectsProps {
-  projects: allDataType["projects"];
-}
 
-const MainProjects: FC<MainProjectsProps> = () => {
+
+const MainProjects: FC = () => {
   return (
     <>
       <h1 className="text-center text-4xl mb-10 md:mb-20">Some of my projects</h1>

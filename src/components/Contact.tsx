@@ -17,7 +17,7 @@ const Contact: FC = () => {
           <div className="flex-1">
             <h3> Get in touch</h3>
             <p className="mt-4 mb-10 text-gray-400 text-lg text-left">
-              I'm currently looking for full-time Software Engineering or Machine Learning opportunities!
+              I am currently looking for full-time Software Engineering or Machine Learning opportunities!
               If you know of any positions available, if you have any questions, or if you just want to 
               say hi, please feel free to email me at.
             </p>

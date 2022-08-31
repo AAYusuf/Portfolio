@@ -1,13 +1,10 @@
 import { FC } from "react";
-import { allDataType } from "../shared/types";
 import {smallProjects} from "../shared/constants";
-import { BiLinkExternal } from "react-icons/bi";
 
-interface SmallProjectsProps {
-  projects: allDataType["smallProjects"];
-}
 
-const SmallProjects: FC<SmallProjectsProps> = () => {
+
+
+const SmallProjects: FC = () => {
   return (
     <div className="flex justify-center mx-[5vw] mt-16 pb-16 mb-16">
       <div className="w-full max-w-[1100px]">

@@ -1,4 +1,4 @@
-import type { GetStaticProps, NextPage } from "next";
+import type {  NextPage } from "next";
 
 import Intro from "../components/Intro";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
@@ -15,7 +15,7 @@ interface HomeProps {
   data: allDataType;
 }
 
-const Home: NextPage<HomeProps> = ({ data }) => {
+const Home: NextPage = () => {
   const containerRef = useRef(null);
 
   return (

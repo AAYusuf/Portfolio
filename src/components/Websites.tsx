@@ -1,10 +1,10 @@
 import { FC } from "react";
 import { allDataType } from "../shared/types";
 import {webistes} from "../shared/constants";
-import { BiLinkExternal } from "react-icons/bi";
 
 
-const Websites= () => {
+
+const Websites: FC = () => {
   return (
     <div className="flex justify-center mx-[5vw] mt-16 pb-16 mb-16">
       <div className="w-full max-w-[1100px]">
@@ -16,7 +16,7 @@ const Websites= () => {
           className="grid  gap-x-16 gap-y-4 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] md:grid-cols-[repeat(auto-fill,_minmax(400px,_1fr))]"
         >
           {webistes.map((website, i) => (
-            <div>
+            <div key={i}>
               <a
                 href={website.link}
                 target="_blank"

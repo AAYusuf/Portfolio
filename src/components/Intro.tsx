@@ -1,8 +1,6 @@
 import { FC, Fragment } from "react";
-
 import { BiChevronsDown } from "react-icons/bi";
 import Canvas from "./Canvas";
-import { characters } from "../shared/constants";
 import { aayusuf } from "../shared/constants";
 import { m } from "framer-motion";
 
