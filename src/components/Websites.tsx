@@ -1,5 +1,4 @@
 import { FC } from "react";
-import { allDataType } from "../shared/types";
 import {webistes} from "../shared/constants";
 
 

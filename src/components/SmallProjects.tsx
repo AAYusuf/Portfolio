@@ -16,8 +16,8 @@ const SmallProjects: FC = () => {
           data-scroll-speed="1"
           className="grid  gap-x-16 gap-y-4 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] md:grid-cols-[repeat(auto-fill,_minmax(400px,_1fr))]"
         >
-          {smallProjects.map((project) => (
-            <div>
+          {smallProjects.map((project, i) => (
+            <div key={i}>
               <a
                 href={project.link}
                 target="_blank"
